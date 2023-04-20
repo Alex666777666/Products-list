@@ -16,7 +16,7 @@ class ProductsList extends Component {
             </li>
           ))}
         </ul>
-        <div className='products__total'>{total}</div>
+        <div className='products__total'>{`Total: ${total}`}</div>
       </div>
     )
   }
